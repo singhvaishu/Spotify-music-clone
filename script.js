@@ -12,7 +12,7 @@ let songs = [
     { songName: "lets play so  ", filePath: "songs/1.mp3", coverPath: "cover1.jpg" },
     { songName: "Let me do", filePath: "songs/2.mp3", coverPath: "cover5.jpg" },
     { songName: "Tum kyu aa", filePath: "songs/3.mp3", coverPath: "cover6.jpg" },
-    { songName: "Xyz happy ", filePath: "songs/4.mp3", coverPath: "cover1.jpg" },
+    { songName: "Jiske aane ", filePath: "songs/4.mp3", coverPath: "cover1.jpg" },
     { songName: "Sardi ki rat ", filePath: "songs/5.mp3", coverPath: "cover5.jpg" },
     { songName: "Tum hi aana ", filePath: "songs/6.mp3", coverPath: "cover6.jpg" },
 
