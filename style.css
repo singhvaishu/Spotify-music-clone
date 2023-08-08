@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 body {
     background-color: antiquewhite;
 }
@@ -126,4 +131,45 @@ nav ul li {
 .songInfo img {
     opacity: opacity is ease-in;
     transition: opacity 0.5s is ease-in;
+}
+
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+
+    }
+
+    .container {
+        width: 90%;
+
+        padding: 20px;
+
+    }
+
+    .songItemcontainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .songItem {
+        width: 80%;
+
+    }
+}
+
+
+@media (max-width: 480px) {
+    body {
+        font-size: 12px;
+
+    }
+
+    .container {
+        padding: 10px;
+
+        background-size: 600px 250px;
+
+    }
 }
